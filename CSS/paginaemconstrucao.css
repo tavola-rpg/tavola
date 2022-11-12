@@ -1,0 +1,60 @@
+body{
+    background-color:  rgba(251, 240, 219, 1);
+}
+
+#base{
+    width: 565.3906px;
+	height: 115.6498px; 
+    margin: auto;
+}
+
+#logo {
+    width: 565.3906px;
+	height: 115.6498px; 
+    float: left;
+	align-content: center;
+	margin-top: 100px;
+}
+	
+	#logo img {
+		width: 565.3906px;
+		height: 115.6498px;  
+		margin: auto;
+	}
+
+#texto1 {
+    width: 100%;
+    height:auto;
+    float: left;
+    margin: auto;
+    /*margin-top: 80px;*/
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 70px;
+    color:  rgba(184, 32, 37, 1);;
+}
+
+#travolta{
+    width: 100%;
+    height: auto;
+    float: left;
+    margin: auto;
+}
+
+    #travolta img{
+        width: auto;
+        height: auto;
+        margin: auto;
+    }
+
+#texto2 {
+    width: 100%;
+    height:auto;
+    float: left;
+    margin: auto;
+    margin-top: 80px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 70px;
+    color:  rgba(184, 32, 37, 1);;
+}

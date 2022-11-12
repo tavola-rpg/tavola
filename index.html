@@ -7,13 +7,13 @@
 <style>
 	
 	body{
-		background-image: url("Img/Home fundo.jpg");
+		background-image: url("img/Home fundo.jpg");
 		background-position: center top;
 	}
 	
 	#base {
 		width: 1366px;
-		height: 2696px;
+		height: auto;
 		margin: auto;
 		border: none;
 	}
@@ -23,6 +23,10 @@
 		height: 768px;
 		float: left;
 	}
+
+	#conteudohome{
+		margin-left: -18px;
+	}
 	
 	#espacomenu {
 		width: 76%;
@@ -31,42 +35,53 @@
 		margin: auto;
 	}
 	
-	#menu { /*voltar para ajustas a direita*/
+	#menu { 
 		width: 80%;
 		height: 47px;
 		float: right;
 		border: none;
 	}
 
-	.botaomenuhome {
-		float: left; 
-		width: 20%;
-		height: 47px; 
-		font-family: Verdana, Geneva, sans-serif; /*rever fonte*/
-		font-size: 14px;
-		font-style: normal;
-		color: black;
-		line-height: 47px;	
-		text-align: center;
-	}
+		.botaomenuhome {
+			float: left; 
+			width: 20%;
+			height: 47px; 
+			font-family: Verdana, Geneva, sans-serif; /*rever fonte*/
+			font-size: 14px;
+			font-style: normal;
+			color: black;
+			line-height: 47px;	
+			text-align: center;
+			transition: all;
+		}
 	
-	.botaomenuhome a{
-		text-decoration: none;
-		color: black;
-		
-	}
-		
-	.botaomenuhome img{
-		width: 27.073px;
-		height: 27.073px;
-		align-content: left;
-		margin-top: 8px;
-	}
-		
-	#menu a:hover{
-		text-decoration: underline;
-		text-decoration-style: double;
-	}
+		.botaomenuhome a{
+			text-decoration: none;
+			color: black;
+			
+		}
+			
+		.botaomenuhome img{
+			width: 27.073px;
+			height: 27.073px;
+			align-content: left;
+			margin-top: 8px;
+			transition: all;
+		}
+			
+		#menu a:hover{
+			text-decoration: none;
+			font-size: 16px;
+			transition-duration: 1s;
+		}
+
+		.botaomenuhome img:hover{
+			width: 30.073px;
+			height: 30.073px;
+			transition-duration: 0.8s;
+			cursor: pointer;
+		}
+
 	
 	#logo {
 		width: 100%;
@@ -77,9 +92,9 @@
 	}
 	
 	#logo img {
-		width: 565,3906px;
-		height: 115,6498px;
-		align-content: center;
+		width: 565.3906px;
+		height: 115.6498px;  
+		margin: auto;
 	}
 	
 	#pesquisabase {
@@ -89,16 +104,105 @@
 		margin-top: 49px;
 	}
 	
-	#barradepesquisa{
-		margin: auto;
-		width: 587px;
-  		height: 61px;
-		border-style: hidden;
-		border-radius: 50px;
-		background-color: white;
-		box-shadow: 4px 6px 4px 4px rgba(0, 0, 0, 0.5); /*usar rgb pra mudar a opacidade, que é o último número da sequencia, em % */
-	}
-	
+		#barradepesquisa{
+			margin: auto;
+			width: 587px;
+			height: 61px;
+			border-radius: 50px;
+			background-color: white;
+			box-shadow: 4px 6px 4px 4px rgba(0, 0, 0, 0.5); /*usar rgb pra mudar a opacidade, que é o último número da sequencia, em % */
+		}
+
+			#localizacao {
+				width: 245px;
+				height:30.2916px;
+				margin-top: 16px;
+				margin-left: 5px;
+				border-right: solid 2px rgb(154, 154, 154);
+				float: left;
+				display: block;
+			}
+				#localizacao input {
+					width: 190px;
+					height: 20px;
+					margin-right: 8px;
+					margin-top: 2px;
+					float: right;
+					border-style: hidden;
+					padding-top: 4px;
+					font-family: Verdana, Geneva, Tahoma, sans-serif;
+					font-size: 13px;
+					color: rgb(63, 63, 63);
+					outline: none;
+				}
+				#localizacao img{
+					width: 24.2524px;
+					height: 22.229px;
+					margin-top: 4px;
+					margin-left: 8px;
+				}
+
+			#qualdata {
+				width: 133.701px;
+				height: 30.2916px;
+				margin-top: 16px;
+				border-right: solid 2px rgb(154, 154, 154);
+				float: left;
+			}
+				#qualdata input{
+					width: 110px;
+					height: 20px;
+					margin-right: 8px;
+					margin-top: 2px;
+					float: right;
+					border-style: hidden;
+					padding-top: 4px;
+				}
+			
+			#qualtema {
+				width: 150.4134px;
+				height: 30.2916px;
+				margin-top: 16px;
+				float: left;
+			}
+
+				#qualtema select {
+					width: 90px;
+					height: 20px;
+					margin-right: 15px;
+					margin-top: 4px;
+					float: right;
+					border-style: hidden;
+					background-color: white;
+					font-family: Verdana, Geneva, Tahoma, sans-serif;
+					font-size: 13px;
+					color: rgb(63, 63, 63);
+				}
+
+				#qualtema img {
+					width: 24.2524px;
+					height: 22.229px;
+					margin-top: 4px;
+					margin-left: 8px;
+				}
+
+			#iconebusca {
+				width: 38.8728px;
+				height: 38.8728px;
+				border-radius: 50%;
+				float: left;
+				margin-top: 10px;
+				background-color: rgba(229, 229, 80, 1);
+				box-shadow: 4px 3px 4px 2px rgba(0, 0, 0, 0.25);
+			}
+
+			#iconebusca img{
+				width: 16.4055px;
+				height: 16.4068px;
+				margin: auto;
+				margin-top: 10px;
+			}
+
 	#cadastrobase {
 		width: 100%;
 		height: 73px;
@@ -122,7 +226,279 @@
 		color : rgb(35, 31, 32);
 		box-shadow: 4px 6px 4px 4px rgba(0, 0, 0, 0.2);
 	}
+
+	#cadastrobase a{
+		text-decoration: none;
+		color: rgba(127, 84, 160, 1);
+	}
+
+	#quemsomos {
+		width: auto;
+		height: auto;
+		float: right;
+		margin-right: 178.425px;
+		margin-top: 110.29px;
+	}
+
+		#quemsomos img {
+			width: 501.792px;
+			height: 416.3266px;
+		}
 	
+		#textoquemsomos {
+			width: 484.1118px;
+			height: 392.6578px;
+			margin-right: 64.91px;
+			margin-top: 110.29px;;
+			float: right;
+			border-top: solid 12.5px rgba(238, 104, 35, 1);
+			border-bottom: solid 12.5px rgba(238, 104, 35, 1);
+		}
+			#paragrafoquemsomos {
+				width: auto;
+				height: auto;
+				margin: auto;
+				margin-top: 39.35px;
+				font-family: Verdana, Geneva, Tahoma, sans-serif;
+				font-size: 16px;
+			}
+				#paragrafoquemsomos strong{
+					color: rgb(178, 31, 103)
+				}
+	
+	#nossoconceito {
+		width: auto;
+		height: auto;
+		float: left;
+		margin-left: 137.37px;
+		margin-top: 42px;
+	}
+
+		#nossoconceito img {
+			width: 551.3817px;
+			height: 314.5493px;
+		}
+	
+		#textonossoconceito {
+			width: 484.1118px;
+			height: 392.6578px;
+			margin-left: 64.91px;
+			margin-top: none;
+			float: left;
+			border-top: solid 12.5px rgba(45, 179, 74, 1);
+			border-bottom: solid 12.5px rgba(45, 179, 74, 1);
+		}
+			#paragrafonossoconceito {
+				width: auto;
+				height: auto;
+				margin: auto;
+				margin-top: 40.35px;
+				font-family: Verdana, Geneva, Tahoma, sans-serif;
+				font-size: 16px;
+			}
+			#paragrafonossoconceito strong {
+				color: rgb(45, 179, 74);
+			}
+
+
+/*RODAPE*/
+
+#rodape{
+	width: 100%;
+	height: auto;
+}
+	#textorodape{
+		width: 50%;
+		height: auto;
+		float: left;
+	}
+	
+#quemsomos-resp{
+	display: none;
+}
+
+#nossoconceito-resp{
+	display: none;
+}
+
+@media only screen and (max-width: 786px) {
+
+body {
+	background-image: none;
+	background-color:  rgba(251, 240, 219, 1);
+}
+
+#base {
+	width: 768px;
+	height: auto;
+	margin: auto;
+}
+
+.caixadeconteudo {
+	width: 100%;
+	height: auto;
+}
+
+	/*MENU*/
+#espacomenu {
+	width: 100%;
+}
+
+	#menu {
+		margin: 0px;
+		height: 100vh;
+		margin-left: -8px;
+		margin-top: -8px;
+		width: 100%;
+		position: fixed;
+		display: none;
+		transition: all;
+	}
+
+	#buttonmenu{
+		width: 49.4528px;
+		height: 49.4528px;
+		border-radius: 50%;
+		background-color: white;
+		box-shadow: 4px 6px 4px 4px rgba(0, 0, 0, 0.25); 
+		float: right;
+		margin-right: 10px;
+		cursor: pointer;
+	}
+		#buttonmenu img{
+			width: 26.5311px;
+			height: 18.7928px;
+			margin-top: 15px;
+		}
+
+	.botaomenuhome{
+		width: 100%;
+		height: 128px;
+		margin: auto;
+		background-color:rgb(127, 84, 160,.9);
+		line-height: 128px;
+		text-align: center;
+		font-size: 16px;
+		transition: all;
+		
+	}
+
+		.botaomenuhome a{
+			text-decoration: none;
+			color:black;
+			text-shadow: none;
+		}
+			
+			.botaomenuhome:hover{
+				font-weight: bold;
+				background-color: rgba(236, 233, 98, 1);
+				transition-duration: 1s;
+			}
+
+			#menu a:hover{
+				font-size: 18px;
+				transition-duration: 1s;
+			}
+
+
+	#interruptormenu {
+		display: none;
+	}
+
+	#interruptormenu:checked ~ #menu {
+		display: block;
+	}
+
+	#btmenu{ /*icone menu responsivo*/
+		width: 49.4528px;
+		height: 49.4528px;
+		position: fixed;
+		z-index: 9;
+		right: 10px;
+		display: block;
+	}/*FIM DO MENU*/
+
+/*QUEM SOMOS*/
+#quemsomos-resp{
+	display: block;
+	width: auto;
+	height: auto;
+	margin: auto;
+	margin-top: 145px;
+}
+	#quemsomos-resp{
+		width: 497.9736px;
+		height: 68.378px;
+	}
+
+#quemsomos{/*tela cheia*/
+	display: none;
+}
+
+#textoquemsomos{
+	margin: auto;
+	margin-top: 23px;
+	float: none;
+}
+
+/*NOSSO CONCEITO*/
+#nossoconceito-resp{
+	display: block;
+	width: auto;
+	height: auto;
+	margin: auto;
+	margin-top: 145px;
+}
+	#nossoconceito-resp img{
+		width: 546.6093px;
+		height: 44.6484px;
+	}
+
+#nossoconceito{/*tela cheia*/
+	display: none;
+}
+
+#textonossoconceito{
+	margin: auto;
+	margin-top: 23px;
+	float: none;
+}
+
+/*RODAPE*/
+#textorodape{
+	float: none;
+	margin: auto;
+}
+
+} /*media only*/
+
+#interruptormenu {
+	display: none;
+}
+
+/*nav,
+.caixadeconteudo {
+	overflow-y: scroll;
+  	scroll-behavior: smooth;
+}
+
+/*.scroll-container {
+  width: 350px;
+  height: 200px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+.scroll-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-size: 5em;
+}*/
+	
+label{
+	display: none;
+}
 
 </style>
 	
@@ -132,43 +508,108 @@
 	
 			<div id="base">
 				
-				<div class="caixadeconteudo">
+				
+				<div id="conteudo-home" class="caixadeconteudo">
 					
 					<div id="espacomenu">
-					
+
+						<!--RESPONSIVO-->
+						<input type="checkbox" id="interruptormenu"/>
+
+						<label for="interruptormenu" id="btmenu">
+								<div id="buttonmenu"><center><img src="svg/SVG/hamburguer.svg" alt="menu"></center></div>	
+						</label>
+						
 						<div id="menu">
 							<div class="botaomenuhome"><a href=""><strong>cadastro</strong></a></div>
-							<div class="botaomenuhome"><a href=""><strong>quem somos</strong></a></div>
-							<div class="botaomenuhome"><a href=""><strong>nosso conceito</strong></a></div>
-							<div class="botaomenuhome"><a href=""><strong>dúvidas e dicas</strong></a></div>
-							<div class="botaomenuhome"><img src="SVG/SVG/HOME busca no site.svg" alt="busca-no-site"></div>
+							<div class="botaomenuhome"><a href="#conteudo-quemsomos"><strong>quem somos</strong></a></div>
+							<div class="botaomenuhome"><a href="#textonossoconceito"><strong>nosso conceito</strong></a></div>
+							<div class="botaomenuhome"><a href="paginaemconstrucao.html"><strong>dúvidas e dicas</strong></a></div>
+							<div class="botaomenuhome"><img src="svg/SVG/HOME busca no site.svg" alt="busca-no-site"></div>
 						</div>
 						
 					</div> <!--espacomenu-->
 
 					<div id="logo">
-						<center><img src="SVG/SVG/HOME logomarca rgb.svg" alt="logomarca-tavola" width="565" height="115"></center>
+						<center><img src="svg/SVG/HOME logomarca rgb.svg" alt="logomarca-tavola"></center>
 					</div>
 					
 					<div id="pesquisabase">
-						<div id="barradepesquisa"></div>
+						<div id="barradepesquisa">
+
+							<div id="localizacao">
+								<input type="text" name="localização" placeholder="Digite uma localização">
+								<img src="img/localizador.svg">
+							</div>
+
+							<div id="qualdata">
+								<input type="date" name="quando?">
+							</div>
+
+							<div id="qualtema">
+								<img src="img/livrinho.svg">
+								<select>
+									<optgroup>
+										<option value="">Tema</option>
+										<option value="fantasia">Fantasia medieval</option>
+										<option value="terror">Terror</option>
+										<option>Cyberpunk</option>
+										<option>Sci-fi</option>
+										<option>Super herói</option>
+										<option>Drama</option>
+										<option>Comédia</option>
+										<option>Urbano</option>
+									</optgroup>
+								</select>
+							</div>
+
+							<a href="resultadodepesquisa.html"><div id="iconebusca"><center><img src="img/busca roxo.svg" alt="buscar mesa"></center></div></a>
+
+						</div>
 					</div>
 					
 					<div id="cadastrobase">
-						<div id="botaofacacadastro">Fazer cadastro</div>
+						<a href="paginaemconstrucao.html"><div id="botaofacacadastro">Fazer cadastro</div></a>
 					</div>
 					
 
 				</div> <!--caixaconteudo/home-->
 				
-				<div class="caixadeconteudo">
-					
+				<div id="conteudo-quemsomos" class="caixadeconteudo">
+					<div id="quemsomos"><img src="img/quem somos.svg" alt="quem somos"></div>
+
+					<div id="quemsomos-resp"><center><img src="img/quem-somos-resp.svg" alt="quem somos"></center></div>
+
+					<div id="textoquemsomos">
+						<div id="paragrafoquemsomos"><p>Távola é a ferramenta ideal para <strong>encontrar a mesa de RPG perfeita para você.</strong><br><br><br>
+
+							Nossa meta é te ajudar a encontrar um grupo para jogos de <strong>RPG presenciais</strong>, dispondo de uma plataforma robusta onde você pode pesquisar com base em localização, horários ou temas. Mais do que isso: Távola foi <strong>criado com a comunidade LGBT em mente</strong>, tendo a preocupação em garantir espaços seguros e com a sua vibe.<br><br><br>
+							
+							Enconte agora o jogador que falta para começar sua campanha, ou aquele grupo que você tanto queria! E, claro, boa sorte nos dados!
+						</p></div>
+					</div>
 				</div> <!--caixaconteudo/quemsomos-->
 				
-				<div class="caixadeconteudo">
-					
+				<div id="conteudo-nossoconceito" class="caixadeconteudo">
+					<div id="nossoconceito"><img src="img/nosso conceito.svg" alt="noss conceito"></div>
+
+					<div id="nossoconceito-resp"><center><img src="img/noss-conceito-resp.svg"></center></div>
+
+					<div id="textonossoconceito">
+						<div id="paragrafonossoconceito"><p>O Role-Playing Game (RPG) como conhecemos hoje surgiu nos anos 70, a partir dos wargames. O primeiro RPG disponível comercialmente foi Dungeons & Dragons, publicado em 1974. <br><br><br>
+
+							Pensando nisso, <strong>nos inspiramos na estética da década de 70</strong> para elaborar o visual do <strong>TAVOLA</strong>, já que foi o período de criação do nosso querido <strong>RPG de mesa</strong>. Dessa forma, o visual da plataforma não remete a nenhum sistema específico.<br><br><br>
+							
+							Já a palavra <strong>TÁVOLA</strong> vem do latim tabula e quer dizer, literalmente, mesa. Nada mais apropriado para um <strong>site de busca de jogos de RPG de mesa</strong>.
+						</p></div>
+					</div>
+
+					<div id="rodape">
+						<div id="textorodape"><p></p></div>
+					</div>
+
 				</div> <!--caixaconteudo/nossoconceito-->
-				
+			
 			</div> <!--base-->
 	
 </body>

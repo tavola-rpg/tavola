@@ -1,0 +1,35 @@
+#cabecalho {
+	width: 100%;
+	height: 31.9919px;
+	margin-top: 33.3817px;
+}
+	.cabecalho2 {
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		font-size: 12px;
+		color : rgb(153, 153, 153);
+		text-align: center;
+		line-height: auto;
+		margin-left: 94.543px;
+	}
+
+	#nomeousistema {
+		width: 131.3903px;
+		height: 31.9919px;
+		float: left;
+		/*background-color: aliceblue;*/
+		margin-left: 99.163px;
+	}
+	#disponibilidade {
+		width: 112.4753px;
+		height: 31.9919px;
+		float: left;
+		/*background-color: black;*/
+		margin-left: 98.701px;
+	}
+	#distanciadevc {
+		width: 58.9px;
+		height: 31.9919px;
+		float: left;
+		/*background-color: burlywood;*/
+		margin-left: 70.701px;
+	}

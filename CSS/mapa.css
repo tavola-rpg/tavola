@@ -1,0 +1,20 @@
+#mapa {
+	width: 647.9675px;
+	height: 613.5px;
+	float: right;
+	margin-left: 46.2867px;
+    margin-top: 4px;
+	background-color: rgba(0, 0, 0, 0.25); 
+}
+
+#mapa iframe{
+	width: 647.9675px;
+	height: 613.5px;
+}
+
+@media only screen and (max-width: 768px) {
+	#mapa{
+		display: none;
+	}
+}
+	

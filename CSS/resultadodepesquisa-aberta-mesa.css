@@ -7,6 +7,43 @@
 	float: left;
 }
 
+/*CABECALHO CASCATAS*/
+#cabecalho {
+	width: 100%;
+	height: 31.9919px;
+	margin-top: 33.3817px;
+}
+	.cabecalho2 {
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		font-size: 12px;
+		color : rgb(153, 153, 153);
+		text-align: center;
+		line-height: auto;
+		margin-left: 94.543px;
+	}
+
+	#nomeousistema {
+		width: 131.3903px;
+		height: 31.9919px;
+		float: left;
+		/*background-color: aliceblue;*/
+		margin-left: 99.163px;
+	}
+	#disponibilidade {
+		width: 112.4753px;
+		height: 31.9919px;
+		float: left;
+		/*background-color: black;*/
+		margin-left: 98.701px;
+	}
+	#distanciadevc {
+		width: 58.9px;
+		height: 31.9919px;
+		float: left;
+		/*background-color: burlywood;*/
+		margin-left: 70.701px;
+	}
+
 /*PREVIEW CASCATAS*/
 
 .previewcascatas { /*conf geral*/
@@ -14,7 +51,7 @@
 	height: auto;
 	overflow: auto;
 	margin-bottom: 15.6065px;
-	margin-left: 33.745px;
+	margin-left: 39.7431px;
 	float: left;
 	background : rgba(255, 255, 255, 1);
 	border-radius : 12px;
@@ -29,22 +66,6 @@
 .previewcascatas:nth-of-type(2) {
   margin-bottom: 10px;
 } duvida sobre selecao*/
-
-.iconejogador {
-	width: 40.8398px;
-	height: 42.2541px;
-	border-radius: 50%;
-	margin-top: 1px;
-	margin-left: -17px;
-	position: absolute;
-	background-color:rgba(127, 84, 160, 1);
-} 
-	.iconejogador img {
-		width: 20.3558px;
-		height: 28.8527px;
-		margin: auto;
-		padding-top: 11.963px;
-	}
 
 .iconemesa {
 	width: 40.8398px;
@@ -88,7 +109,7 @@
 	float: left;
 	margin-top: 5px;
 	margin-left: 64.701px;
-	padding: 12px;
+	padding-top: 12px;
 	font-weight : bold;
 }
 
@@ -107,7 +128,7 @@
 /*----------------------CASCATA ABERTA----------------------*/
 .escondidoaberto {
 	width: 632.4643px;
-	height: 331.2485px;
+	height: 347.249px;
 	float: left;
 	margin-left: 33.745px;
 	background-color: rgba(255, 255, 255, 1);
@@ -115,55 +136,60 @@
 	display: block;
 }
 
-/*INFOS GERAIS*/
-.checkboxverde{
-	width: auto;
-	height: auto;
-	float: right;
-	margin-top: 2px;
-	margin-right: 4px;
-}
-	.checkboxverde img{
-		width: 13.2488px;
-		height: 13.2488px;
-		/*right: 10.8836px;*/
-	}
-
 /*----------------------------------------------*/
-.idadejogador {
-	width: 81.2921px;
-	height: 19.8461px;
-	float: left;
-	margin-top: 22.8699px;
-	margin-left: 60.191px;
-	text-align: center;
+.titulo {
+    width: 184.6068px;
+    height: 19.5349px;
+    float: left;
+    margin-top: 7.5px;
+    margin-left: 65.1315px;
+    line-height: 19.5349px;
 }
 
-.jogadorstatus {
-	width: 102.9049px;
-	height: 19.8461px;
-	float: left;
-	margin-top: 22.8699px;
-	margin-left: 10.431px;
-	text-align: center;
+.statusandamento {
+    width: 184.6068px;
+    height: 19.5349px;
+    float: left;
+    margin-top: 7.5px;
+    margin-left: 10.492px;
+    line-height: 19.5349px;
 }
 
-.narradorstatus {
-	width: 110.7112px;
-	height: 19.8461px;
-	float: left;
-	margin-top: 22.8699px;
-	margin-left: 14.7413px;
-	text-align: center;
+.formato{
+    width: 93.3858px;
+    height: 19.5349px;
+    float: left;
+    margin-top: 7.5px;
+    margin-left: 11.1px;
+    margin-right: 78.71px;
+    line-height: 19.5349px;
 }
 
-.xpstatus {
-	width: 140.5639px;
-	height: 19.8461px;
-	float: left;
-	margin-top: 22.8699px;
-	margin-left: 10px;
-	text-align: center;
+.tema {
+    width: 121.63px;
+    height: 24.8198px;
+    float: left;
+    margin-top: 8.3px;
+    background : rgba(236, 233, 98, 0.51);
+    border-radius : 12px;
+    line-height: 24.8198px;
+
+}
+    #tema1{
+        margin-left: 68.4717px;
+    }
+
+    #tema2{
+        margin-left: 10.0881px;
+    }
+
+.statusjogadores{
+    width: 163.4389px;
+    height: 19.8461px;
+    float: left;
+    margin-left: 54.27px;
+    margin-top: 10.92px;
+    line-height: 19.5349px;
 }
 
 .sinopse {
@@ -209,16 +235,16 @@
 		height: 17.8434px;
 	}
 
-.txtinfocomentario {
-	width: 123.9px;
+/*.txtinfocomentario {
+	width: 319.9px;
 	height: 17.2645px;
 	float: left;
 	margin-top: 28.33px;
-	margin-left: 292px;
-	text-align: right;
+	margin-left: 94px;
+	text-align: center;
 	color: rgb(153, 153, 153);
-}
-	
+}*/
+
 .btcomentario {
 	width: 33.9145px;
 	height: 33.9145px;
@@ -235,50 +261,7 @@
 		padding-top: 9.5px;
 	}
 
-#mapinha{
-	display: none;
-}
-	#botaomapinha{
-		display: none;
-	}
 
-/*RESPONSIVO*/
-@media only screen and (max-width: 786px) {
-
-
-#mapinha{
-	display: block;
-	float: left;
-	width: auto;
-	height: 73px;
-	margin-left: 280px;
-	cursor: pointer;
-}
-	#botaomapinha {
-		display: block;
-		width : 155px;
-  		height : 40px;
-		margin: auto;
-		margin-top: 20px;
-		background-color: rgba(127, 84, 160, 1);
-		border-style: solid;
-		border-color :rgba(236, 233, 98, 1);
-  		border-width : 2px;
-		border-radius: 12px;
-		line-height: 40px;
-		text-align: center;
-		font-family : Verdana;
-		font-weight : bold;
-		font-size : 13px;
-		color : rgba(236, 233, 98, 1); /*rgb(35, 31, 32);*/
-		box-shadow: 4px 6px 4px 4px rgba(0, 0, 0, 0.2);
-	}
-
-	#mapinha a{
-		color:rgba(236, 233, 98, 1);
-		text-decoration: none;
-	}
-}
 
 
 

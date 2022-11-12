@@ -1,0 +1,138 @@
+#basepesquisa {
+	width: 100%;
+	height: 72.75px;
+	margin-top: 18.5892px;
+}
+	#paragrafo {
+		width: 100%;
+		height: 21px;
+		margin-left: 37px;
+		padding-bottom: 3px;
+		text-align: left;
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		font-size : 11px;
+		line-height: 15px;
+  		color : rgb(153, 153, 153);
+	}
+   /*-----------------------------------------------------*/
+	#barradepesquisa {
+		width: 307.5674px;
+		height: 48.7501px;
+		float: left;
+		border-radius: 50px;
+		margin-left: 17px;
+		background-color: white;
+		box-shadow: 0px 0px 6px 6px rgba(32, 32, 32, 0.1); /*usar rgb pra mudar a opacidade, que é o último número da sequencia, em % */
+	}
+		#localizacao {
+			width: 92.632px;
+			height:23.9619px;
+			margin-left: 10.34px;
+			margin-top: 12px;
+			float: left;
+			border-right: solid 1px rgb(154, 154, 154, 0.5);
+			display: block;
+		}
+			/*#localizacao input {
+				width: px;
+				height: px;
+				margin-right: px;
+				margin-top: px;
+				float: ;
+				border-style: ;
+				padding-top: px;
+				color: rgb(63, 63, 63);
+			}*/
+
+			#localizacao img{
+				width: 14.6851px;
+				height: 17.5265px;
+				padding: 2px;
+				margin: auto;
+				text-align: center;
+			}
+
+		#data {
+			width: 76.304px;
+			height: 23.9619px;
+			margin-top: 12px;
+			border-right: solid 1px rgb(154, 154, 154, 0.5);
+			float: left;
+		}
+			#data img{
+				width: 17.5079px;
+				height: 17.2124px;
+				padding: 2px;
+				margin: auto;
+				text-align: center;
+			}
+			/*#data input{
+				width: 110px;
+				height: 20px;
+				margin-right: 8px;
+				margin-top: 2px;
+				float: right;
+				border-style: hidden;
+				padding-top: 4px;
+			}*/
+		
+		#tema {
+			width: 67.93px;
+			height: 23.9619px;
+			margin-top: 12px;
+			float: left;
+		}
+
+			/*#tema select {
+				width: 90px;
+				height: 20px;
+				margin-right: 15px;
+				margin-top: 4px;
+				float: right;
+				border-style: hidden;
+				background-color: white;
+				font-family: Verdana, Geneva, Tahoma, sans-serif;
+				font-size: 13px;
+				color: rgb(63, 63, 63);
+			}*/
+
+			#tema img {
+				width: 19.1846px;
+				height: 17.584px;
+				padding: 2px;
+			}
+
+		#iconebusca {
+			width: 30.75px;
+			height: 30.75px;
+			margin-top: 8px;
+			margin-left: 14px;
+			float: left;
+			border-radius: 50%;
+			background-color: rgba(229, 229, 80, 1);
+			box-shadow: 4px 3px 4px 2px rgba(0, 0, 0, 0.2);
+		}
+
+			#iconebusca img{
+				width: 12.9774px;
+				height: 12.9785px;
+				margin: auto;
+				padding: 8px;
+			}
+
+/*FILTROS*/
+	#filtros {
+		width: 38.4865px;
+		height: 38.4865px;
+		border-radius: 50%;
+		float: left;
+		margin-top: 5px;
+		margin-left: 54.8572px;
+		background-color: rgb(127, 84, 160);
+		box-shadow: 4px 3px 4px 2px rgba(0, 0, 0, 0.2);
+	}
+		#filtros img {
+			width: 23.1506px;
+			height: 23.1528px;
+			padding: 8px;
+		}

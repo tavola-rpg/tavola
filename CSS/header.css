@@ -1,0 +1,194 @@
+/*CABECALHO*/
+#topo {
+	width: 100%;
+	height: 70px;
+}
+
+#logosuperior {
+	width: 49.4528px;
+	height: 47.4528px;
+	border-radius: 50%;
+	background-color: white;
+	box-shadow: 4px 6px 4px 4px rgba(0, 0, 0, 0.25); 
+	float: left;
+	margin-left: 10px;
+	padding-top: 3px;
+}
+	#logosuperior img {
+		margin: auto;
+		width: 49.735px;
+		height: 45.735px;
+	}
+
+	#espacomenu {
+		width: 76%;
+		height: 70px;
+		margin: auto;
+		float: right;
+	}
+	
+	#menu { /*voltar para ajustas a direita*/
+		width: 80%;
+		height: 47px;
+		float: right;
+		margin-top: 3px;
+		border: none;
+	}
+
+	#menu a:hover{
+			color: rgb(35, 31, 32);
+			font-weight: bold;
+			font-size: 16px;
+			transition-duration: 1s;
+		}
+		
+	.botaomenuhome {
+		float: left; 
+		width: 20%;
+		height: 47px; 
+		font-family: Verdana, Geneva, sans-serif; /*rever fonte*/
+		font-size: 14px;
+		font-style: normal;
+		color: rgb(35, 31, 32);
+		line-height: 47px;	
+		text-align: right;
+		text-shadow: 0px 2px 8px whitesmoke;
+	}
+	
+		.botaomenuhome a{
+			text-decoration: none;
+			color:rgb(35, 31, 32);
+			transition: all;
+		}
+		
+		.botaomenuhome img{
+			width: 27.073px;
+			height: 27.073px;
+			align-content: left;
+			padding-right: 33px;
+			margin-top: 8px;
+		}
+
+		.botaomenuhome img:hover{
+			width: 30.073px;
+			height: 30.073px;
+			transition-duration: 0.8s;
+			cursor: pointer;
+		}
+
+
+
+/*-----------------RESPONSIVO------------------*/
+@media only screen and (max-width: 768px) {
+	/*#topo{
+		position: fixed;
+	}  se fixar o topo, nada mais desce na rolagem*/
+
+#espacomenu{
+	width: 100%;
+	margin-top: -8px;
+}
+	#logosuperior{
+		position: fixed;
+		overflow: visible;
+		z-index: 90;
+	}
+
+	#menu {
+		margin: 0px;
+		margin-left: -8px;
+		z-index: 999;
+		width: 100%;
+		position: fixed;
+		display: none;
+		transition: all;
+	}
+
+	.botaomenuhome{
+		width: 100%;
+		height: 128px;
+		margin: auto;
+		background-color:rgb(127, 84, 160,.9);
+		line-height: 128px;
+		text-align: center;
+		font-size: 16px;
+		transition: all;
+		
+	}
+
+		.botaomenuhome a{
+			text-decoration: none;
+			color:black;
+			text-shadow: none;
+		}
+			
+			.botaomenuhome:hover{
+				font-weight: bold;
+				background-color: rgba(236, 233, 98, 1);
+				transition-duration: 1s;
+			}
+
+			#menu a:hover{
+				font-size: 18px;
+				transition-duration: 1s;
+			}
+
+
+	#interruptormenu {
+		display: none;
+	}
+
+	#interruptormenu:checked ~ #menu {
+		display: block;
+	}
+
+	#btmenu{ /*icone menu responsivo*/
+		width: auto;
+		height: autopx;
+		position: fixed;
+		display: block;
+		z-index: 9999;
+		right: 10px;
+		top: 10px;
+	}
+
+	#btmenux{
+		width: 49.4528px;
+		height: 49.4528px;
+		border-radius: 50%;
+		background-color: white;
+		box-shadow: 4px 6px 4px 4px rgba(0, 0, 0, 0.25); 
+		float: right;
+		margin-right: 10px;
+		cursor: pointer;
+	}
+		#btmenux img {
+			width: 26.5311px;
+			height: 18.7928px;
+			margin-top: 15px;
+		}
+	}/*media only*/
+
+#interruptormenu {
+	display: none;
+}
+	
+label{
+	display: none;
+}
+/*fim do RESPONSIVO*/
+
+/*#menu {
+	width: 49.4528px;
+	height: 49.4528px;
+	border-radius: 50%;
+	background-color: white;
+	box-shadow: 4px 6px 4px 4px rgba(0, 0, 0, 0.25); 
+	float: right;
+	margin-right: 10px;
+}
+	#menu img {
+		width: 26.5311px;
+		height: 18.7928px;
+		margin-top: 15px;
+	}*/

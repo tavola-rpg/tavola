@@ -1,0 +1,35 @@
+#escritosuperior {
+	width: 100%;
+	height: 37.1784px;
+	margin-top: -16px;
+	margin-left: -3px;
+}
+	ul.breadcrumb{
+		list-style: none;
+	}
+
+	ul.breadcrumb li {
+		display: inline;
+	}
+
+	ul.breadcrumb li+li::before {
+		color: rgb(127, 84, 160);
+		content: ">\00a0"
+	}
+
+	ul.breadcrumb li a {
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		font-size: 11px;
+		color: rgb(127, 84, 160);
+		line-height: 37.1784px;
+		text-decoration: none;
+		text-align: left;
+     	transition: all;
+	}
+
+	ul.breadcrumb li a:hover {
+		color: rgb(127, 84, 160);
+		font-weight: bold;
+		font-size: 13px;
+		transition-duration: 1s;
+	}

@@ -1,0 +1,26 @@
+body{
+	background-image: url("../Img/res-de-pesquisa-corrigido-80.jpg");
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+
+#bigdiv {
+	width: 1366px;
+	height: 768px;
+	margin: auto;
+	margin-top: none;
+}
+
+@media only screen and (max-width: 768px) {
+	
+	body{
+		background-image: none;
+		background-color: rgba(251, 240, 219, 1);
+	}
+
+    #bigdiv {
+        width: auto;
+        height: auto;
+        margin: auto;
+    }
+}
